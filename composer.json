@@ -1,0 +1,22 @@
+{
+    "name": "malezhive/malezhivecommons",
+    "description": "Bibliothèque commune",
+    "require": {
+        "php": ">=5.3.0",
+        "apache/log4php": "2.3.0",
+        "doctrine/orm": "*"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "dev team",
+            "email": "contact@malezhive.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0":{
+			"malezhivecommons" : "src/"
+		}
+	}
+}
